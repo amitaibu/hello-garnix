@@ -24,7 +24,7 @@
                 checkPhase = ''
                   echo "Looking around to see if anything is amiss.."
                   OUTPUT=$(./an-executable)
-                  if [ "$OUTPUT" != "Hello From an executable!" ]; then
+                  if [ "$OUTPUT" != "Hello from an executable!" ]; then
                     echo "Test failed!"
                     exit 1
                   fi
